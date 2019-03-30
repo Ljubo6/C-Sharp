@@ -1,0 +1,11 @@
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\bin\Debug\netcoreapp2.1\02. Song Encryption.deps.json
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\bin\Debug\netcoreapp2.1\02. Song Encryption.runtimeconfig.json
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\bin\Debug\netcoreapp2.1\02. Song Encryption.runtimeconfig.dev.json
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\bin\Debug\netcoreapp2.1\02. Song Encryption.dll
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\bin\Debug\netcoreapp2.1\02. Song Encryption.pdb
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.csprojAssemblyReference.cache
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.csproj.CoreCompileInputs.cache
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.AssemblyInfoInputs.cache
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.AssemblyInfo.cs
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.dll
+C:\Users\Ljubo\source\repos\Technology Fundamentals Final Exam - 16 December 2018\02. Song Encryption\obj\Debug\netcoreapp2.1\02. Song Encryption.pdb
