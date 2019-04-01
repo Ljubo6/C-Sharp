@@ -1,0 +1,11 @@
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\bin\Debug\netcoreapp2.1\01. Vapor Winter Sale.deps.json
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\bin\Debug\netcoreapp2.1\01. Vapor Winter Sale.runtimeconfig.json
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\bin\Debug\netcoreapp2.1\01. Vapor Winter Sale.runtimeconfig.dev.json
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\bin\Debug\netcoreapp2.1\01. Vapor Winter Sale.dll
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\bin\Debug\netcoreapp2.1\01. Vapor Winter Sale.pdb
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.csprojAssemblyReference.cache
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.csproj.CoreCompileInputs.cache
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.AssemblyInfoInputs.cache
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.AssemblyInfo.cs
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.dll
+C:\Users\Ljubo\source\repos\Projects\Technology Fundamentals Retake Final Exam - 20 December 2018\01. Vapor Winter Sale\obj\Debug\netcoreapp2.1\01. Vapor Winter Sale.pdb
