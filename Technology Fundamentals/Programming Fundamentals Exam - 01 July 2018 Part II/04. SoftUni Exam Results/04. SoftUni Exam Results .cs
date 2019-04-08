@@ -47,7 +47,7 @@ namespace _04._SoftUni_Exam_Results
             Console.WriteLine("Submissions:");
             foreach (var kvp in languagePoints.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
-                Console.WriteLine($"{kvp.Key} | {kvp.Value}");
+                Console.WriteLine($"{kvp.Key} - {kvp.Value}");
             }
         }
     }
