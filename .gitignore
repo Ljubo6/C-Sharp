@@ -9,3 +9,4 @@ obj
 *.ide
 *.ide-shm
 *.ide-wal
+*.exe
