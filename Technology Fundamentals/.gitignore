@@ -10,3 +10,5 @@ obj
 *.ide-shm
 *.ide-wal
 *.exe
+*.json
+*.sqlite
