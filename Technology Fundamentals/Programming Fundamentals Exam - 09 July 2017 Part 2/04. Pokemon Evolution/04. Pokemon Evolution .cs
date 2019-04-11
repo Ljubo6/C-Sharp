@@ -10,7 +10,7 @@ namespace _04._Pokemon_Evolution
         {
             string input = string.Empty;
             Dictionary<string, List<string>> dict = new Dictionary<string, List<string>>();
-            while ((input = Console.ReadLine()) != "Wubbalubbadubdub")
+            while ((input = Console.ReadLine()) != "wubbalubbadubdub")
             {
                 string[] tokens = input.Split(new[] {" -> "},StringSplitOptions.RemoveEmptyEntries);
                 string name = tokens[0];
