@@ -9,21 +9,34 @@
         private int horsePower;
         private double cubicCapacity;
 
-        public Engine(int horsePower,double cubicCapacity)
+        public Engine(int horsePower, double cubicCapacity)
         {
             this.HorsePower = horsePower;
             this.CubicCapacity = cubicCapacity;
         }
+
         public int HorsePower
         {
-            get { return horsePower; }
-            set { horsePower = value; }
+            get
+            {
+                return this.horsePower;
+            }
+            set
+            {
+                this.horsePower = value;
+            }
         }
 
-        public double  CubicCapacity
+        public double CubicCapacity
         {
-            get { return  cubicCapacity; }
-            set {  cubicCapacity = value; }
+            get
+            {
+                return this.cubicCapacity;
+            }
+            set
+            {
+                this.cubicCapacity = value;
+            }
         }
 
     }

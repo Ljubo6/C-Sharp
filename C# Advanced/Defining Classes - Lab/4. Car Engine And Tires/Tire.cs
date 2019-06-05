@@ -8,21 +8,34 @@
         private int year;
         private double pressure;
 
-        public Tire(int yaer,double pressure)
+        public Tire(int year, double pressure)
         {
             this.Year = year;
             this.Pressure = pressure;
         }
+
         public int Year
         {
-            get { return year; }
-            set { year = value; }
+            get
+            {
+                return this.year;
+            }
+            set
+            {
+                this.year = value;
+            }
         }
 
         public double Pressure
         {
-            get { return pressure; }
-            set { pressure = value; }
+            get
+            {
+                return this.pressure;
+            }
+            set
+            {
+                this.pressure = value;
+            }
         }
 
     }
