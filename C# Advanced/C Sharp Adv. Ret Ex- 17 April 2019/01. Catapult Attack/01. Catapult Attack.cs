@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _01._Catapult_Attack
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int waves = int.Parse(Console.ReadLine());
+            List<int> plates = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToList();
+            Stack<int> trojans = new Stack<int>();
+            for (int i = 1; i <= waves; i++)
+            {
+                if (plates.Count == 0)
+                {
+                    break;
+                }
+                int[] trojanWarriors = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+                trojans = new Stack<int>(trojanWarriors);
+                if (i % 3 == 0)
+                {
+                    int plateToAdd = int.Parse(Console.ReadLine());
+                    plates.Add(plateToAdd);
+                }
+                while (trojans.Any() && plates.Any())
+                {
+                    int trojanWarrior = trojans.Pop();
+                    if (trojanWarrior > plates[0])
+                    {
+                        trojanWarrior -= plates[0];
+                        trojans.Push(trojanWarrior);
+                        plates.RemoveAt(0);
+                    }
+                    else if (trojanWarrior < plates[0])
+                    {
+                        plates[0] -= trojanWarrior;
+                    }
+                    else
+                    {
+                        plates.RemoveAt(0);
+                    }
+                }
+            }
+            if (trojans.Any())
+            {
+                Console.WriteLine($"Rocks left: {string.Join(", ", trojans)}");
+            }
+            else if (plates.Any())
+            {
+                Console.WriteLine($"Walls left: {string.Join(", ", plates)}");
+            }
+        }
+    }
+}
