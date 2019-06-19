@@ -31,8 +31,6 @@ namespace _04._Cups_and_Bottles
                         bottles.Pop();
                     }
                 }
-
-
             }
             if (cups.Any())
             {
