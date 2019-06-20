@@ -49,14 +49,16 @@ namespace _04._Movie_Time
                 string wifeCommand = Console.ReadLine();
                 if (wifeCommand == "Yes")
                 {
-                    //var totalSeconds = movies.Values.Sum(x => x.Values.Sum(c => c.TotalSeconds));
+                    ////var totalSeconds = movies.Values.Sum(x => x.Values.Sum(c => c.TotalSeconds));
                       var totalSeconds = movies.Values.Sum(x => x.Sum(s => s.Value.TotalSeconds));
 
-                    int hours = (int)totalSeconds / 60 / 60;
-                    int minutes = (int)totalSeconds / 60 % 60;
-                    int seconds = (int)totalSeconds % 60;
+                    //int hours = (int)totalSeconds / 60 / 60;
+                    //int minutes = (int)totalSeconds / 60 % 60;
+                    //int seconds = (int)totalSeconds % 60;
+                    string timeSpan = TimeSpan.FromSeconds(totalSeconds).ToString(TimeFormat);
                     Console.WriteLine($"We're watching {movieKvp.Key} - {movieKvp.Value}");
-                    Console.WriteLine($"Total Playlist Duration: {hours:D2}:{minutes:D2}:{seconds:D2}");
+                    //Console.WriteLine($"Total Playlist Duration: {hours:D2}:{minutes:D2}:{seconds:D2}");
+                    Console.WriteLine($"Total Playlist Duration: {timeSpan}");
                     return;
                 }
             }
