@@ -10,7 +10,7 @@
 
     public class FileAppender : Appender
     {
-        private const string path = "log.txt";
+        private const string path = @"..\..\..\log.txt";
 
         private readonly ILogFile logFile;
 
