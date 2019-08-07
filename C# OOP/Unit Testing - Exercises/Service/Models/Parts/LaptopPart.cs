@@ -9,7 +9,8 @@
         {
             
         }
-        public LaptopPart(string name, decimal cost, bool isBroken) : base(name, cost * multiplier, isBroken)
+        public LaptopPart(string name, decimal cost, bool isBroken) 
+            : base(name, cost * multiplier, isBroken)
         {
 
         }
