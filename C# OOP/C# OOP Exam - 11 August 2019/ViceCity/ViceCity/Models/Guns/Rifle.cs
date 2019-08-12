@@ -16,11 +16,12 @@ namespace ViceCity.Models.Guns
 
         public override int Fire()
         {
-            if (this.BulletsPerBarrel - 5 <= 0 && this.TotalBullets > 0)
+            if (this.BulletsPerBarrel - 5 == 0 && this.TotalBullets > 0)
             {
+                this.BulletsPerBarrel -= 5;
                 this.BulletsPerBarrel = InitialBulletsPerBarel;
                 this.TotalBullets -= InitialBulletsPerBarel;
-                return 0;
+                return 5;
             }
             else
             {
