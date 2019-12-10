@@ -40,7 +40,7 @@
                 };
                 sb.AppendLine($"Record {animalDto.Name} successfully imported.");
                 validAnimals.Add(animalAid);
-                
+
             }
             context.AnimalAids.AddRange(validAnimals);
             context.SaveChanges();
@@ -143,7 +143,7 @@
                 foreach (var animalAidDto in procedureDto.AnimalAids)
                 {
                     var animalAid = context.AnimalAids.SingleOrDefault(x => x.Name == animalAidDto.Name);
-                    if (animalAid == null 
+                    if (animalAid == null
                         || validProcedureAnimalAids.Any(x => x.AnimalAid.Name == animalAidDto.Name))
                     {
                         allAidsExist = false;
@@ -171,7 +171,7 @@
                 {
                     Animal = animal,
                     Vet = vet,
-                    DateTime = DateTime.ParseExact(procedureDto.DateTime,"dd-MM-yyyy",CultureInfo.InvariantCulture),
+                    DateTime = DateTime.ParseExact(procedureDto.DateTime, "dd-MM-yyyy", CultureInfo.InvariantCulture),
                     ProcedureAnimalAids = validProcedureAnimalAids
                 };
                 validProcedures.Add(procedure);
