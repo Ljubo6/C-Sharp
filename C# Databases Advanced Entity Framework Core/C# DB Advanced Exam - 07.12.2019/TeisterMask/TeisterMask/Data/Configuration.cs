@@ -2,6 +2,6 @@
 {
     public static class Configuration
     {
-        public static string ConnectionString = @"Server=DESKTOP-OE6JNPK\SQLEXPRESS;Database=TeisterMask;Trusted_Connection=True";
+        public static string ConnectionString = @"Server=DESKTOP-TP8HKOC\SQLEXPRESS;Database=TeisterMask;Trusted_Connection=True";
     }
 }
