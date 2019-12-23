@@ -1,0 +1,17 @@
+bin
+
+obj
+
+
+*.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.exe
+*.json
+*.sqlite
+*.dtbcache
+*.user
+*.testlog
+*.manifest
